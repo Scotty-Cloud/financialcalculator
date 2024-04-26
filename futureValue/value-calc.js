@@ -17,7 +17,7 @@ function futureValueCalculator() {
 
   // Display of results
 
-  document.getElementById("result").innerHTML =
+  document.getElementById("result").innerText =
     "Your CD's ending balance will be $" +
     futureValue.toFixed(2) +
     " and you would have earned $" +
