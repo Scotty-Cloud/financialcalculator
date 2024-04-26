@@ -21,11 +21,12 @@ function calculateMortgage() {
 
   const loanLength = parseFloat(loanLengthInput.value) * 12; // Convert to number of months
 
-  // Calculate the monthly payment using the compound interest formula
+  // Calculate the monthly payment using the formula:
+
+  // M = P[r(1+r)^n]/[(1+r)^n – 1]
 
   const monthlyPayment =
-    (principal * interestRate * Math.pow(1 + interestRate, loanLength)) /
-    (Math.pow(1 + interestRate, loanLength) - 1);
+    (principal * interestRate * Math.pow(1 + interestRate, loanLength)) / (Math.pow(1 + interestRate, loanLength) - 1);
 
   // Calculate the total interest paid
 
