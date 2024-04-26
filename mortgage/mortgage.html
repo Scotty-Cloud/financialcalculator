@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mortgage Calculator</title>
+  </head>
+  <body>
+    <h1>Mortgage Calculator</h1>
+
+    <form id="cd-calculator">
+      <label for="loan">Loan Amount:</label>
+
+      <input type="number" id="loan" name="loan" step="0.01" required />
+
+      <br />
+
+      <label for="interest-rate">Interest Rate (as a decimal):</label>
+
+      <input
+        type="number"
+        id="interest-rate"
+        name="interest-rate"
+        step="0.01"
+        required
+      />
+
+      <br />
+
+      <label for="length">Loan Length:</label>
+
+      <input type="number" id="length" name="length" required />
+
+      <br />
+
+      <button type="button" id="calculate">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+    <script src="value-calc.js"></script>
+  </body>
+</html>
