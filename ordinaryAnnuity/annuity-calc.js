@@ -2,6 +2,7 @@
 const monthlyPayOutInput = document.getElementById("monthlyPayOut");
 const expectedInterestRateInput = document.getElementById("expected-interest-rate");
 const payOutYearsInput = document.getElementById("payOutYears");
+const calculateButton = document.getElementById("calculate");
 
 const resultDiv = document.getElementById("result");
 
@@ -42,6 +43,3 @@ function calculatePresentValue(
   }
     return presentValue;
 }
-document
-  .getElementById("calculate")
-  .addEventListener("click", calculateAnnuity);
