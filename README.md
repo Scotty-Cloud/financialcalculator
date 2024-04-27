@@ -5,6 +5,6 @@
 this exercise is designed to put your knowledge to the test
 with all the material learned in week 2
 
-<img src="images/annuityScreenShot.png">
-<img src="images/mortgageScreenShot.png">
-<img src="images/futureValScreenShot.png">
+<img src="images/presentannuity.png">
+<img src="images/mortgage.png">
+<img src="images/futureval.png">
