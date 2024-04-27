@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annuity Calculator</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <h1>Annuity Calculator</h1>
+
+    <form id="annuity-calculator">
+      <label for="monthlyPayOut">Monthly Pay Out</label>
+      <input type="number" id="monthlyPayOut" name="monthlyPayOut" step="0.01" required />
+      <br />
+      <label for="expected-interest-rate"> Expected Interest Rate (as a decimal):</label>
+
+      <input
+        type="number" id="expected-interest-rate" name="expected-interest-rate" step="0.01" required />
+      <br />
+
+      <label for="payOutYears">Years To Pay Out</label>
+      <input type="number" id="payOutYears" name="payOutYears" required />
+      <br />
+      <button type="button" id="calculate">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+    <script src="annuity-calc.js"></script>
+  </body>
+</html>

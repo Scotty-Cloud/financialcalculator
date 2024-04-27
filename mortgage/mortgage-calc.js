@@ -13,9 +13,9 @@ function calculateMortgage() {
 
   const totalInterestPaid = monthlyPayment * loanLength - principal;
 
-  resultElement.textContent = `Monthly payment: $${monthlyPayment.toFixed(
+  resultElement.textContent = `Your monthly payment will $${monthlyPayment.toFixed(
     2
-  )}\nTotal interest: $${totalInterestPaid.toFixed(2)}`;
+  )}\nand you will pay $${totalInterestPaid.toFixed(2)} in interest over the life of the loan`;
 }
 document
   .getElementById("calculate")
