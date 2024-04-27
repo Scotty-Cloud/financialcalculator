@@ -8,4 +8,3 @@ with all the material learned in week 2
 <img src="images/annuityScreenShot.png">
 <img src="images/mortgageScreenShot.png">
 <img src="images/futureValScreenShot.png">
-
